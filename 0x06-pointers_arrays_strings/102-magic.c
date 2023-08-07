@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int a[5] = {98, 198, 298, 398, 498};
-	int *p;
+    int a[5] = {98, 198, 298, 398, 498};
+    int *p;
 
-	p = &a[2] - 1;
-	printf("a[2] = %d\n", *(p + 2));
+    p = &a[2] - 1;
+    printf("a[2] = %d\n", *(p + 2));
 
-	return (0);
+    return (0);
 }
 
